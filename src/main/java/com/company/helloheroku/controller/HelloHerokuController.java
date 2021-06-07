@@ -14,8 +14,8 @@ public class HelloHerokuController {
         return "Hello, Heroku";
     }
 
-    @RequestMapping(value = "/hi/{name}", method = RequestMethod.GET)
-    public String sayHi(@PathVariable String name ) {
-        return "What's happening, " + name;
-    }
+//    @RequestMapping(value = "/hi/{name}", method = RequestMethod.GET)
+//    public String doHi(@PathVariable String name) {
+//        return "What's happening, " + name;
+//    }
 }
